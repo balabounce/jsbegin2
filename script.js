@@ -29,6 +29,19 @@ let personaMovieDb = {
     genres: [],
     privat: false
 };
+
+console.log(personaMovieDb.count < 10);
+
+if(personaMovieDb.count < 10 ) {
+    alert("Просмотрено довольно мало фильмов");
+}
+if(personaMovieDb.count >= 10 && personaMovieDb.count < 30 ) {
+    alert("Вы классический зритель");
+}
+if(personaMovieDb.count >= 30) {
+    alert("Вы киноман");
+}
+
 //third 
 // let lastMovieName = prompt("Один из последних просмотренных фильмов?", 'Терминатор');
 // let rateMovie =  prompt("Насколько вы его оцениваете?", '10');
